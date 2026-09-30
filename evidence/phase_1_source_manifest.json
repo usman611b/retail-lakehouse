@@ -1,0 +1,158 @@
+{
+  "customers": {
+    "source_group": "postgres_seed",
+    "rows": 750,
+    "columns": [
+      "customer_id",
+      "first_name",
+      "last_name",
+      "email",
+      "phone",
+      "city",
+      "loyalty_tier",
+      "join_date",
+      "active_flag"
+    ],
+    "file": "data/source/postgres_seed/customers.csv"
+  },
+  "orders": {
+    "source_group": "postgres_seed",
+    "rows": 4000,
+    "columns": [
+      "order_id",
+      "customer_id",
+      "store_id",
+      "order_ts",
+      "updated_at",
+      "status",
+      "channel",
+      "promo_id",
+      "subtotal",
+      "discount_amount",
+      "tax_amount",
+      "total_amount",
+      "currency_code"
+    ],
+    "file": "data/source/postgres_seed/orders.csv"
+  },
+  "order_items": {
+    "source_group": "postgres_seed",
+    "rows": 9868,
+    "columns": [
+      "order_item_id",
+      "order_id",
+      "product_id",
+      "quantity",
+      "unit_price",
+      "line_total",
+      "currency_code"
+    ],
+    "file": "data/source/postgres_seed/order_items.csv"
+  },
+  "payments": {
+    "source_group": "postgres_seed",
+    "rows": 4000,
+    "columns": [
+      "payment_id",
+      "order_id",
+      "payment_ts",
+      "payment_method",
+      "payment_status",
+      "amount",
+      "currency_code"
+    ],
+    "file": "data/source/postgres_seed/payments.csv"
+  },
+  "products": {
+    "source_group": "flat_files",
+    "rows": 120,
+    "columns": [
+      "product_id",
+      "product_name",
+      "category",
+      "supplier_id",
+      "cost_price",
+      "list_price",
+      "currency_code",
+      "active_flag"
+    ],
+    "file": "data/source/flat_files/products.csv"
+  },
+  "stores": {
+    "source_group": "flat_files",
+    "rows": 6,
+    "columns": [
+      "store_id",
+      "store_name",
+      "city",
+      "region",
+      "latitude",
+      "longitude",
+      "opened_date",
+      "manager_name"
+    ],
+    "file": "data/source/flat_files/stores.csv"
+  },
+  "promotions": {
+    "source_group": "flat_files",
+    "rows": 15,
+    "columns": [
+      "promo_id",
+      "promo_name",
+      "promo_type",
+      "discount_value",
+      "category",
+      "start_date",
+      "end_date",
+      "active_flag"
+    ],
+    "file": "data/source/flat_files/promotions.csv"
+  },
+  "suppliers": {
+    "source_group": "flat_files",
+    "rows": 18,
+    "columns": [
+      "supplier_id",
+      "supplier_name",
+      "contact_name",
+      "email",
+      "phone",
+      "city",
+      "lead_time_days",
+      "active_flag"
+    ],
+    "file": "data/source/flat_files/suppliers.csv"
+  },
+  "weather_sample": {
+    "source_group": "weather",
+    "rows": 552,
+    "columns": [
+      "store_id",
+      "observed_date",
+      "temperature_c",
+      "rainfall_mm",
+      "humidity_pct",
+      "wind_speed_kmh",
+      "weather_code",
+      "source"
+    ],
+    "file": "data/source/weather/weather_sample.csv"
+  },
+  "stream_events": {
+    "source_group": "streaming",
+    "rows": 100,
+    "columns": [
+      "event_id",
+      "event_type",
+      "event_ts",
+      "order_id",
+      "customer_id",
+      "store_id",
+      "product_id",
+      "quantity",
+      "unit_price",
+      "currency_code"
+    ],
+    "file": "data/source/streaming/stream_events.csv"
+  }
+}

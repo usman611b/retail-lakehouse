@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+data/lakehouse/
+data/landing/weather/*.jsonl
+logs/
+
+
+.venv/
+venv/
+.vs/

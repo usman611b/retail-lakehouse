@@ -1,0 +1,16 @@
+promo_id,promo_name,promo_type,discount_value,category,start_date,end_date,active_flag
+PR001,Summer Saver,PERCENT,10,All,2026-08-14,2026-08-31,True
+PR002,Weekend Grocery,PERCENT,8,Grocery,2026-06-11,2026-07-05,True
+PR003,Beverage Boost,PERCENT,12,Beverages,2026-06-06,2026-06-23,True
+PR004,Bakery Friday,PERCENT,15,Bakery,2026-06-15,2026-06-23,True
+PR005,Household Value,PERCENT,7,Household,2026-06-01,2026-06-22,True
+PR006,Care Essentials,PERCENT,10,Personal Care,2026-07-23,2026-08-13,True
+PR007,Snack Time,PERCENT,9,Snacks,2026-07-03,2026-07-14,True
+PR008,June Payday,FIXED,250,All,2026-06-01,2026-06-10,True
+PR009,July Payday,FIXED,300,All,2026-08-13,2026-08-31,True
+PR010,August Payday,FIXED,300,All,2026-07-10,2026-07-23,True
+PR011,Monsoon Offer,PERCENT,6,All,2026-07-05,2026-07-17,True
+PR012,Midweek Value,PERCENT,5,All,2026-07-04,2026-07-26,True
+PR013,Loyalty Bonus,PERCENT,4,All,2026-07-19,2026-08-11,True
+PR014,Back to School,PERCENT,11,Snacks,2026-06-03,2026-06-22,True
+PR015,Family Basket,FIXED,400,All,2026-07-07,2026-07-31,True

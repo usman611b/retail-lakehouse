@@ -1,0 +1,19 @@
+supplier_id,supplier_name,contact_name,email,phone,city,lead_time_days,active_flag
+SUP001,Atlas Foods,Noah Robinson,contact001@example.com,+92-300-1000001,Multan,4,True
+SUP002,Blue River Trading,Sophia Patel,contact002@example.com,+92-300-1000002,Faisalabad,4,True
+SUP003,Cedar Household,Aarav Brown,contact003@example.com,+92-300-1000003,Faisalabad,2,True
+SUP004,Crescent Consumer Goods,William Khan,contact004@example.com,+92-300-1000004,Lahore,2,True
+SUP005,Evergreen Supplies,Emma Ahmed,contact005@example.com,+92-300-1000005,Karachi,7,True
+SUP006,FreshFields Foods,Hassan Iqbal,contact006@example.com,+92-300-1000006,Faisalabad,10,True
+SUP007,Golden Grain Co,Hassan Iqbal,contact007@example.com,+92-300-1000007,Faisalabad,4,True
+SUP008,Harbor Imports,William Iqbal,contact008@example.com,+92-300-1000008,Lahore,3,True
+SUP009,Indus Beverages,Sara Robinson,contact009@example.com,+92-300-1000009,Lahore,10,True
+SUP010,Maple Personal Care,John Malik,contact010@example.com,+92-300-1000010,Lahore,5,True
+SUP011,Metro Wholesale,Aisha Ahmed,contact011@example.com,+92-300-1000011,Multan,7,True
+SUP012,Northstar Foods,Olivia Taylor,contact012@example.com,+92-300-1000012,Islamabad,4,True
+SUP013,Oakline Essentials,Adam Lee,contact013@example.com,+92-300-1000013,Islamabad,3,True
+SUP014,Prime Pantry,Usman Hussain,contact014@example.com,+92-300-1000014,Lahore,2,True
+SUP015,Riverstone Distribution,Zara Brown,contact015@example.com,+92-300-1000015,Karachi,2,True
+SUP016,Sunrise Bakers,John Taylor,contact016@example.com,+92-300-1000016,Islamabad,5,True
+SUP017,Urban Goods,Sara Martin,contact017@example.com,+92-300-1000017,Faisalabad,4,True
+SUP018,Valley Retail Supply,Aarav Wilson,contact018@example.com,+92-300-1000018,Multan,5,True

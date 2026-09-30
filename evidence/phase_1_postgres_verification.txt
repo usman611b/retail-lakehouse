@@ -1,0 +1,17 @@
+Retail Lakehouse PostgreSQL Source Verification
+Generated: 2026-09-05 22:33:18 +05:00
+ table_name  | row_count 
+-------------+-----------
+ customers   |       750
+ order_items |      9868
+ orders      |      4000
+ payments    |      4000
+(4 rows)
+
+       check_name        | failure_count 
+-------------------------+---------------
+ orders_without_customer |             0
+ items_without_order     |             0
+ payments_without_order  |             0
+(3 rows)
+

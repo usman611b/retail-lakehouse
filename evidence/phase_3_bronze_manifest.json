@@ -1,0 +1,173 @@
+{
+  "generated_at_utc": "2026-09-05T18:30:55.112413+00:00",
+  "write_mode": "overwrite",
+  "tables": {
+    "customers": {
+      "source_system": "postgresql",
+      "rows": 750,
+      "columns": [
+        "customer_id",
+        "first_name",
+        "last_name",
+        "email",
+        "phone",
+        "city",
+        "loyalty_tier",
+        "join_date",
+        "active_flag",
+        "_ingestion_ts",
+        "_source_system",
+        "_source_object"
+      ],
+      "path": "data/lakehouse/bronze/customers"
+    },
+    "orders": {
+      "source_system": "postgresql",
+      "rows": 4000,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "store_id",
+        "order_ts",
+        "updated_at",
+        "status",
+        "channel",
+        "promo_id",
+        "subtotal",
+        "discount_amount",
+        "tax_amount",
+        "total_amount",
+        "currency_code",
+        "_ingestion_ts",
+        "_source_system",
+        "_source_object"
+      ],
+      "path": "data/lakehouse/bronze/orders"
+    },
+    "order_items": {
+      "source_system": "postgresql",
+      "rows": 9868,
+      "columns": [
+        "order_item_id",
+        "order_id",
+        "product_id",
+        "quantity",
+        "unit_price",
+        "line_total",
+        "currency_code",
+        "_ingestion_ts",
+        "_source_system",
+        "_source_object"
+      ],
+      "path": "data/lakehouse/bronze/order_items"
+    },
+    "payments": {
+      "source_system": "postgresql",
+      "rows": 4000,
+      "columns": [
+        "payment_id",
+        "order_id",
+        "payment_ts",
+        "payment_method",
+        "payment_status",
+        "amount",
+        "currency_code",
+        "_ingestion_ts",
+        "_source_system",
+        "_source_object"
+      ],
+      "path": "data/lakehouse/bronze/payments"
+    },
+    "products": {
+      "source_system": "flat_file",
+      "rows": 120,
+      "columns": [
+        "product_id",
+        "product_name",
+        "category",
+        "supplier_id",
+        "cost_price",
+        "list_price",
+        "currency_code",
+        "active_flag",
+        "_ingestion_ts",
+        "_source_system",
+        "_source_object"
+      ],
+      "path": "data/lakehouse/bronze/products"
+    },
+    "stores": {
+      "source_system": "flat_file",
+      "rows": 6,
+      "columns": [
+        "store_id",
+        "store_name",
+        "city",
+        "region",
+        "latitude",
+        "longitude",
+        "opened_date",
+        "manager_name",
+        "_ingestion_ts",
+        "_source_system",
+        "_source_object"
+      ],
+      "path": "data/lakehouse/bronze/stores"
+    },
+    "promotions": {
+      "source_system": "flat_file",
+      "rows": 15,
+      "columns": [
+        "promo_id",
+        "promo_name",
+        "promo_type",
+        "discount_value",
+        "category",
+        "start_date",
+        "end_date",
+        "active_flag",
+        "_ingestion_ts",
+        "_source_system",
+        "_source_object"
+      ],
+      "path": "data/lakehouse/bronze/promotions"
+    },
+    "suppliers": {
+      "source_system": "flat_file",
+      "rows": 18,
+      "columns": [
+        "supplier_id",
+        "supplier_name",
+        "contact_name",
+        "email",
+        "phone",
+        "city",
+        "lead_time_days",
+        "active_flag",
+        "_ingestion_ts",
+        "_source_system",
+        "_source_object"
+      ],
+      "path": "data/lakehouse/bronze/suppliers"
+    },
+    "weather": {
+      "source_system": "open_meteo_landing",
+      "rows": 552,
+      "columns": [
+        "_extraction_ts",
+        "humidity_pct",
+        "observed_date",
+        "rainfall_mm",
+        "source",
+        "store_id",
+        "temperature_c",
+        "weather_code",
+        "wind_speed_kmh",
+        "_ingestion_ts",
+        "_source_system",
+        "_source_object"
+      ],
+      "path": "data/lakehouse/bronze/weather"
+    }
+  }
+}

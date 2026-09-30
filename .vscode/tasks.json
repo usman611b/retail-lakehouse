@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Retail: Start PostgreSQL",
+      "type": "shell",
+      "command": "docker compose up -d postgres",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Retail: Run Bronze",
+      "type": "shell",
+      "command": "docker compose run --rm spark",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "dependsOn": "Retail: Start PostgreSQL",
+      "problemMatcher": []
+    },
+    {
+      "label": "Retail: Verify Bronze",
+      "type": "shell",
+      "command": "docker compose run --rm spark python spark_jobs/bronze/verify_bronze.py",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "dependsOn": "Retail: Start PostgreSQL",
+      "problemMatcher": []
+    }
+  ]
+}

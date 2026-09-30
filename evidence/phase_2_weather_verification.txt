@@ -1,0 +1,9 @@
+Retail Lakehouse Phase 2 Weather Verification
+Generated: 2026-09-05 22:47:55 +05:00
+Rows: 552
+Unique store/date keys: 552
+Stores: S001, S002, S003, S004, S005, S006
+Date range: 2026-06-01 to 2026-08-31
+Source: open_meteo
+Fallback test: passed with 552 records
+API/auto test: passed with 552 records

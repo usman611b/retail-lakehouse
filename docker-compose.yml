@@ -1,0 +1,43 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: retail-postgres
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d:ro
+      - ./data/source/postgres_seed:/source_data:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  spark:
+    build:
+      context: .
+      dockerfile: docker/spark/Dockerfile
+    container_name: retail-spark
+    working_dir: /opt/project
+    env_file:
+      - .env
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      SPARK_LOCAL_IP: 127.0.0.1
+    volumes:
+      - ./:/opt/project
+      - spark_ivy_cache:/root/.ivy2
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: ["python", "spark_jobs/bronze/build_bronze.py"]
+
+volumes:
+  postgres_data:
+  spark_ivy_cache:
+

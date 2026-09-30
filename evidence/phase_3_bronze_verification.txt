@@ -1,0 +1,12 @@
+Retail Lakehouse Phase 3 Bronze Verification
+Generated: 2026-09-06T04:02:15.892875+00:00
+customers: expected=750, actual=750, metadata_nulls=0, passed=True
+orders: expected=4000, actual=4000, metadata_nulls=0, passed=True
+order_items: expected=9868, actual=9868, metadata_nulls=0, passed=True
+payments: expected=4000, actual=4000, metadata_nulls=0, passed=True
+products: expected=120, actual=120, metadata_nulls=0, passed=True
+stores: expected=6, actual=6, metadata_nulls=0, passed=True
+promotions: expected=15, actual=15, metadata_nulls=0, passed=True
+suppliers: expected=18, actual=18, metadata_nulls=0, passed=True
+weather: expected=552, actual=552, metadata_nulls=0, passed=True
+Overall result: PASSED

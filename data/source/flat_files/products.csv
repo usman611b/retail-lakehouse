@@ -1,0 +1,121 @@
+product_id,product_name,category,supplier_id,cost_price,list_price,currency_code,active_flag
+P0001,Ever Mineral Water Standard,Beverages,SUP010,433.39,660,PKR,True
+P0002,Nova Mineral Water Family,Beverages,SUP009,182.14,265,PKR,True
+P0003,FreshCo Orange Juice Standard,Beverages,SUP009,664.17,1000,PKR,True
+P0004,FreshCo Orange Juice Family,Beverages,SUP017,1010.69,1410,PKR,True
+P0005,FreshCo Mango Juice Standard,Beverages,SUP005,960.41,1405,PKR,True
+P0006,Urban Mango Juice Family,Beverages,SUP013,496.0,750,PKR,True
+P0007,Ever Green Tea Standard,Beverages,SUP011,276.19,425,PKR,True
+P0008,FreshCo Green Tea Family,Beverages,SUP006,1188.8,1530,PKR,True
+P0009,Dawn Black Tea Standard,Beverages,SUP018,611.12,985,PKR,True
+P0010,FreshCo Black Tea Family,Beverages,SUP002,270.9,375,PKR,True
+P0011,Brook Ground Coffee Standard,Beverages,SUP016,1143.19,1805,PKR,True
+P0012,Brook Ground Coffee Family,Beverages,SUP013,107.33,155,PKR,True
+P0013,Crown Instant Coffee Standard,Beverages,SUP013,1356.71,1805,PKR,True
+P0014,Crown Instant Coffee Family,Beverages,SUP017,1343.91,1895,PKR,True
+P0015,Nova Cola Standard,Beverages,SUP002,711.67,895,PKR,True
+P0016,GreenLeaf Cola Family,Beverages,SUP004,1059.33,1700,PKR,True
+P0017,Urban Lemon Drink Standard,Beverages,SUP004,1370.83,1755,PKR,True
+P0018,Dawn Lemon Drink Family,Beverages,SUP016,913.15,1305,PKR,True
+P0019,Crown Energy Drink Standard,Beverages,SUP016,912.44,1470,PKR,True
+P0020,Crown Energy Drink Family,Beverages,SUP003,211.12,325,PKR,True
+P0021,Urban White Bread Standard,Bakery,SUP015,1020.22,1595,PKR,True
+P0022,Ever White Bread Family,Bakery,SUP015,966.45,1255,PKR,True
+P0023,Dawn Whole Wheat Bread Standard,Bakery,SUP005,1136.19,1745,PKR,True
+P0024,Aster Whole Wheat Bread Family,Bakery,SUP018,182.19,235,PKR,True
+P0025,PureLine Croissant Standard,Bakery,SUP002,190.16,290,PKR,True
+P0026,Brook Croissant Family,Bakery,SUP015,462.57,755,PKR,True
+P0027,GreenLeaf Chocolate Cake Standard,Bakery,SUP013,1241.26,1980,PKR,True
+P0028,Dawn Chocolate Cake Family,Bakery,SUP011,1384.42,1930,PKR,True
+P0029,Ever Vanilla Cake Standard,Bakery,SUP001,569.77,895,PKR,True
+P0030,PureLine Vanilla Cake Family,Bakery,SUP011,172.11,220,PKR,True
+P0031,GreenLeaf Cookies Standard,Bakery,SUP006,487.87,730,PKR,True
+P0032,Urban Cookies Family,Bakery,SUP007,437.65,585,PKR,True
+P0033,FreshCo Muffin Standard,Bakery,SUP003,934.38,1475,PKR,True
+P0034,Brook Muffin Family,Bakery,SUP015,88.66,140,PKR,True
+P0035,Ever Brownie Standard,Bakery,SUP001,236.97,380,PKR,True
+P0036,GreenLeaf Brownie Family,Bakery,SUP008,364.99,595,PKR,True
+P0037,Urban Rusk Standard,Bakery,SUP002,136.94,180,PKR,True
+P0038,Urban Rusk Family,Bakery,SUP009,293.69,475,PKR,True
+P0039,Aster Buns Standard,Bakery,SUP015,573.41,920,PKR,True
+P0040,GreenLeaf Buns Family,Bakery,SUP010,711.34,1090,PKR,True
+P0041,Dawn Basmati Rice Standard,Grocery,SUP014,234.07,385,PKR,True
+P0042,Crown Basmati Rice Family,Grocery,SUP013,1082.13,1400,PKR,True
+P0043,Urban Brown Rice Standard,Grocery,SUP014,966.99,1190,PKR,True
+P0044,Nova Brown Rice Family,Grocery,SUP005,1130.67,1840,PKR,True
+P0045,Brook Flour Standard,Grocery,SUP010,664.15,910,PKR,True
+P0046,Ever Flour Family,Grocery,SUP001,127.07,205,PKR,True
+P0047,FreshCo Sugar Standard,Grocery,SUP013,1081.18,1540,PKR,True
+P0048,GreenLeaf Sugar Family,Grocery,SUP008,1230.41,1495,PKR,True
+P0049,Ever Salt Standard,Grocery,SUP003,134.84,215,PKR,True
+P0050,Urban Salt Family,Grocery,SUP009,566.6,810,PKR,True
+P0051,Brook Lentils Standard,Grocery,SUP007,124.13,200,PKR,True
+P0052,Dawn Lentils Family,Grocery,SUP015,162.09,250,PKR,True
+P0053,Urban Chickpeas Standard,Grocery,SUP016,1381.88,2210,PKR,True
+P0054,Crown Chickpeas Family,Grocery,SUP018,467.61,620,PKR,True
+P0055,Brook Pasta Standard,Grocery,SUP013,1147.96,1405,PKR,True
+P0056,Ever Pasta Family,Grocery,SUP001,257.15,385,PKR,True
+P0057,PureLine Cooking Oil Standard,Grocery,SUP008,1168.15,1425,PKR,True
+P0058,PureLine Cooking Oil Family,Grocery,SUP010,1346.37,1715,PKR,True
+P0059,Nova Tomato Sauce Standard,Grocery,SUP018,411.47,600,PKR,True
+P0060,Ever Tomato Sauce Family,Grocery,SUP014,145.29,230,PKR,True
+P0061,Crown Potato Chips Standard,Snacks,SUP014,224.39,275,PKR,True
+P0062,Dawn Potato Chips Family,Snacks,SUP003,1211.92,1690,PKR,True
+P0063,Aster Corn Snacks Standard,Snacks,SUP002,1193.74,1685,PKR,True
+P0064,Crown Corn Snacks Family,Snacks,SUP004,1122.21,1700,PKR,True
+P0065,FreshCo Mixed Nuts Standard,Snacks,SUP011,651.19,840,PKR,True
+P0066,Aster Mixed Nuts Family,Snacks,SUP017,583.75,785,PKR,True
+P0067,Urban Peanuts Standard,Snacks,SUP016,787.63,1215,PKR,True
+P0068,Ever Peanuts Family,Snacks,SUP018,455.65,550,PKR,True
+P0069,Ever Chocolate Bar Standard,Snacks,SUP013,330.99,530,PKR,True
+P0070,Urban Chocolate Bar Family,Snacks,SUP010,1273.38,1560,PKR,True
+P0071,Dawn Crackers Standard,Snacks,SUP003,687.47,850,PKR,True
+P0072,Ever Crackers Family,Snacks,SUP017,772.4,1075,PKR,True
+P0073,Dawn Popcorn Standard,Snacks,SUP014,181.36,225,PKR,True
+P0074,Nova Popcorn Family,Snacks,SUP002,423.83,600,PKR,True
+P0075,FreshCo Granola Bar Standard,Snacks,SUP015,513.62,645,PKR,True
+P0076,FreshCo Granola Bar Family,Snacks,SUP007,1173.74,1635,PKR,True
+P0077,FreshCo Dates Pack Standard,Snacks,SUP016,482.51,595,PKR,True
+P0078,Nova Dates Pack Family,Snacks,SUP004,296.24,385,PKR,True
+P0079,Brook Trail Mix Standard,Snacks,SUP002,628.23,850,PKR,True
+P0080,Aster Trail Mix Family,Snacks,SUP010,1375.58,2175,PKR,True
+P0081,Crown Shampoo Standard,Personal Care,SUP010,780.11,1110,PKR,True
+P0082,GreenLeaf Shampoo Family,Personal Care,SUP016,813.9,1025,PKR,True
+P0083,GreenLeaf Conditioner Standard,Personal Care,SUP011,527.86,720,PKR,True
+P0084,Ever Conditioner Family,Personal Care,SUP010,812.27,1260,PKR,True
+P0085,Dawn Hand Wash Standard,Personal Care,SUP011,221.93,270,PKR,True
+P0086,Crown Hand Wash Family,Personal Care,SUP010,667.2,850,PKR,True
+P0087,Urban Body Lotion Standard,Personal Care,SUP015,673.1,1090,PKR,True
+P0088,FreshCo Body Lotion Family,Personal Care,SUP004,580.63,780,PKR,True
+P0089,Crown Toothpaste Standard,Personal Care,SUP014,140.53,225,PKR,True
+P0090,Ever Toothpaste Family,Personal Care,SUP005,1197.47,1680,PKR,True
+P0091,Crown Toothbrush Standard,Personal Care,SUP017,379.99,490,PKR,True
+P0092,Dawn Toothbrush Family,Personal Care,SUP006,579.85,955,PKR,True
+P0093,Urban Face Wash Standard,Personal Care,SUP015,1256.62,1805,PKR,True
+P0094,Brook Face Wash Family,Personal Care,SUP012,104.35,130,PKR,True
+P0095,Ever Soap Standard,Personal Care,SUP006,680.12,890,PKR,True
+P0096,Urban Soap Family,Personal Care,SUP009,1238.01,1660,PKR,True
+P0097,Ever Deodorant Standard,Personal Care,SUP009,1067.38,1730,PKR,True
+P0098,Brook Deodorant Family,Personal Care,SUP006,1201.3,1885,PKR,True
+P0099,Crown Tissues Standard,Personal Care,SUP007,798.94,970,PKR,True
+P0100,Brook Tissues Family,Personal Care,SUP001,552.79,855,PKR,True
+P0101,Dawn Dish Liquid Standard,Household,SUP006,116.1,185,PKR,True
+P0102,FreshCo Dish Liquid Family,Household,SUP005,450.36,555,PKR,True
+P0103,Nova Laundry Powder Standard,Household,SUP016,882.36,1075,PKR,True
+P0104,Dawn Laundry Powder Family,Household,SUP001,1251.73,1645,PKR,True
+P0105,Crown Floor Cleaner Standard,Household,SUP011,764.26,1155,PKR,True
+P0106,Brook Floor Cleaner Family,Household,SUP018,746.08,1080,PKR,True
+P0107,Nova Glass Cleaner Standard,Household,SUP005,796.24,1020,PKR,True
+P0108,FreshCo Glass Cleaner Family,Household,SUP017,694.81,935,PKR,True
+P0109,Ever Kitchen Towels Standard,Household,SUP014,191.24,260,PKR,True
+P0110,Dawn Kitchen Towels Family,Household,SUP009,420.62,545,PKR,True
+P0111,GreenLeaf Trash Bags Standard,Household,SUP007,1032.73,1265,PKR,True
+P0112,Brook Trash Bags Family,Household,SUP001,299.57,385,PKR,True
+P0113,Urban Sponges Standard,Household,SUP013,769.2,1250,PKR,True
+P0114,Dawn Sponges Family,Household,SUP007,1010.55,1530,PKR,True
+P0115,PureLine Air Freshener Standard,Household,SUP014,1182.78,1790,PKR,True
+P0116,GreenLeaf Air Freshener Family,Household,SUP003,544.27,815,PKR,True
+P0117,GreenLeaf Aluminium Foil Standard,Household,SUP005,484.64,720,PKR,True
+P0118,Brook Aluminium Foil Family,Household,SUP017,952.52,1270,PKR,True
+P0119,Ever Storage Bags Standard,Household,SUP014,363.03,550,PKR,True
+P0120,Nova Storage Bags Family,Household,SUP016,633.27,760,PKR,True
